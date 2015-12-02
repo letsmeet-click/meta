@@ -40,4 +40,5 @@ Audience are usergroups that used G+, Meetup or Facebook Events before.
   - Django 1.8+
   - DRF (if api is a go)
   - allauth / social-auth ?
-  - template based webpage with Django or api-based with angular?
+  - template based webpage with Django or api-based with angular? 
+    - rw: No. Just Real Django.
