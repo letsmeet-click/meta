@@ -5,6 +5,15 @@
 Platform to manage events.
 Audience are usergroups that used G+, Meetup or Facebook Events before.
 
+## MVP
+Trying to prove: there is a need for people setting up events and getting reservations, while the interaction, distribution and content of the events is handled somewhere else.
+
+ - Users: signup/login with Social Account (Twitter, G+)
+ - Events: Create/Update, List (Type, Date, Place), see reservations
+ - Signup for an event
+ - Sharing telling others where to register
+
+
 ## Features
 
 - Users
