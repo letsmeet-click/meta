@@ -51,3 +51,13 @@ Trying to prove: there is a need for people setting up events and getting reserv
   - allauth / social-auth ?
   - template based webpage with Django or api-based with angular? 
     - rw: No. Just Real Django.
+
+## Next steps:
+
+- app: main/profile (esp. for allauth)
+- app: community/group
+  - subscribe (membership in group)
+  - set admin using django groups?
+- app: events
+  - m2m to users with through. coming/not-coming
+  - fk to community/group
