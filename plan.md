@@ -46,7 +46,7 @@ Trying to prove: there is a need for people setting up events and getting reserv
   - mail to all members of group (only owners)
   - restapi for groups / events -- all read public? / or only for group-members/owners?
 - technology
-  - Django 1.8+
+  - Django 1.9+
   - DRF (if api is a go)
   - allauth / social-auth ?
   - template based webpage with Django or api-based with angular? 
