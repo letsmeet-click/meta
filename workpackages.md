@@ -36,9 +36,9 @@
 
 ## WP - postgis
 
-- use postgis in postgres docker container
-- i.e. https://github.com/kartoza/docker-postgis
-- write instructions for (dev) setup / change docker-compose.yml
+- [✓] use postgis in postgres docker container
+- [✓] https://hub.docker.com/r/mdillon/postgis/
+- [✓] write instructions for (dev) setup / change docker-compose.yml
 
 ## WP - communities
 
