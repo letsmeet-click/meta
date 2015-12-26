@@ -6,15 +6,15 @@
 - do pair programming!
 - everyone gets an invite to letsmeet-click.slack.com - ask @mfa or @asmaps
 
-- as less code as feasible
+- as less code as feasible (KISS)
 - no crispy or other form-handling / plain django
-- no django-guardian. ownership/subscriptions by using m2m tables
-- use django_extensions.db.models import TimeStampedModel for every model! (created is important for KPIs)
-- write tests for added functionality
+- no django-guardian. ownership/subscriptions by using fk and m2m tables
+- derive every model from `django_extensions.db.models import TimeStampedModel`! (created is important for KPIs)
+- write tests(TM) for added functionality
 
 ## WP - testing
 
-- setup testing / wercker
+- setup testing / wercker, travis, codeship, $bestCIplatform (all of them?)
 
 ## WP - notifications / slack integration
 
@@ -25,15 +25,14 @@
 ## WP - bootstrap
 
 - add bootstrap 4
-- for the start, no compressor/..., but link to hosted bootstrap
+- for the start, no compressor/..., but link to hosted bootstrap (maxcdn)
+- do not check in downloaded files like bootstrap css, etc
 
 ## WP - allauth
 
 - add django-allauth
 - user has to define a (unique) username
 - [@mfa] register oauth with G+, twitter, github
-- create app: main
-  - add profile for user with oauth client tokens
 
 ## WP - postgis
 
@@ -46,7 +45,7 @@
 - create app: communities
   - add/modify community
   - subscribe (membership in community) in m2m table
-  - creator is (default) owner - owner is subscribed with additional info in m2m table
+  - creator is (default) owner - owner is subscribed with additional info in m2m through model (choice, not bool)
   - every subscriber can be promoted to owner by original owner
   - view to community using /c/<slug> (don't forget the slug-field for name!)
   - no delete option for communities! (until later)
@@ -54,8 +53,7 @@
 ## WP - locations
 
 - create app: locations
-  - locations can have special requirements
-    - m2m to users for contact person (with through table, for notes, i.e. shackspace: keymember)
+  - locations can have special requirements (notes textfield)
   - add fields for meta information:
     - name
     - link to location
@@ -122,7 +120,7 @@
 ## WP - events 2
 
 - comments on event
-- threaded? using djangos core comment? or sth else? should be part of the service. no disqus!
+- table with comments, no threads (1 event = 1 thread)
 
 ## WP - KPIs
 
