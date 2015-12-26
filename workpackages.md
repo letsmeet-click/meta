@@ -22,11 +22,11 @@
 - on deploy -> slack (in update.sh on server)
 - test results from wercker -> slack
 
-## WP - bootstrap
+## WP - bootstrap [@asmaps]
 
-- add bootstrap 4
-- for the start, no compressor/..., but link to hosted bootstrap (maxcdn)
-- do not check in downloaded files like bootstrap css, etc
+- [✓] add bootstrap 3
+- [✓] for the start, no compressor/..., but link to hosted bootstrap (maxcdn)
+- [✓] do not check in downloaded files like bootstrap css, etc
 
 ## WP - allauth
 
