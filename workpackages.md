@@ -18,7 +18,7 @@
 
 ## WP - notifications / slack integration
 
-- on push -> slack
+- [✓] on push -> slack
 - [✓] on deploy -> slack (in update.sh on server)
 - test results from wercker -> slack
 
