@@ -47,13 +47,12 @@
 - [✓] https://hub.docker.com/r/mdillon/postgis/
 - [✓] write instructions for (dev) setup / change docker-compose.yml
 
-## WP - communities
+## [✓] WP - communities
 
-- create app: communities
+- [✓] create app: communities
   - [✓] add/ [X] modify community
   - [✓] subscribe (membership in community) in m2m table
   - [✓] creator is (default) owner - owner is subscribed with additional info in m2m through model (choice, not bool)
-  - every subscriber can be promoted to owner by original owner
   - [✓] view to community using /c/<slug> (don't forget the slug-field for name!)
   - [✓] no delete option for communities! (until later)
 
@@ -67,7 +66,7 @@
     - lat/lon using geo-fields (for km calculations later)
     - slug field for usage as url later. generated using the name of the location.
 
-## WP - events
+## [@asmaps] WP - events
 
 - create app: events
   - m2m to users with through. coming/not-coming
@@ -89,6 +88,7 @@
 
 ## WP - communities 2
 
+- every subscriber can be promoted to owner by original owner
 - community has links to
   - twitter profile of group
   - github org
