@@ -33,7 +33,7 @@
 - [✓] add python-social-auth
 - user has to define a (unique) username
 - register oauth with
-  - github
+  - [✓] github
   - twitter
   - google
   - facebook
