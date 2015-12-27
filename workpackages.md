@@ -37,6 +37,8 @@
   - twitter
   - google
   - facebook
+- [✓] add login page
+- [✓] add login status to navbar
 
 ## [✓] WP - postgis
 
