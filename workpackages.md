@@ -72,11 +72,12 @@
   - rsvp of anonymous users? only count them? verify with email / token-link?
   - allow to hide participiants and only show count. (show all participiants only to owners)
 
-## [✓] WP - hosting on ovh-vpc
+## WP - hosting on ovh-vpc
 
 - [✓] setup dev.letsmeet.click
 - [✓] setup docker containers on server
 - [✓] add update.sh for deployment
+- add letsencrypt / ssl
 
 ## WP - nginx
 
