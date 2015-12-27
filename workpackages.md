@@ -19,7 +19,7 @@
 ## WP - notifications / slack integration
 
 - on push -> slack
-- on deploy -> slack (in update.sh on server)
+- [✓] on deploy -> slack (in update.sh on server)
 - test results from wercker -> slack
 
 ## [✓] WP - bootstrap
