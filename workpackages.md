@@ -22,19 +22,23 @@
 - on deploy -> slack (in update.sh on server)
 - test results from wercker -> slack
 
-## WP - bootstrap [@asmaps]
+## [✓] WP - bootstrap
 
 - [✓] add bootstrap 3
 - [✓] for the start, no compressor/..., but link to hosted bootstrap (maxcdn)
 - [✓] do not check in downloaded files like bootstrap css, etc
 
-## WP - allauth
+## [@mfa] WP - allauth
 
-- add django-allauth
+- [✓] add python-social-auth
 - user has to define a (unique) username
-- [@mfa] register oauth with G+, twitter, github
+- register oauth with
+  - github
+  - twitter
+  - google
+  - facebook
 
-## WP - postgis
+## [✓] WP - postgis
 
 - [✓] use postgis in postgres docker container
 - [✓] https://hub.docker.com/r/mdillon/postgis/
@@ -68,11 +72,11 @@
   - rsvp of anonymous users? only count them? verify with email / token-link?
   - allow to hide participiants and only show count. (show all participiants only to owners)
 
-## [@mfa] WP - hosting on ovh-vpc
+## [✓] WP - hosting on ovh-vpc
 
 - [✓] setup dev.letsmeet.click
-- setup docker containers on server
-- add update.sh for deployment
+- [✓] setup docker containers on server
+- [✓] add update.sh for deployment
 
 ## WP - nginx
 
