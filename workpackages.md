@@ -28,7 +28,7 @@
 - [✓] for the start, no compressor/..., but link to hosted bootstrap (maxcdn)
 - [✓] do not check in downloaded files like bootstrap css, etc
 
-## [@mfa] WP - allauth
+## WP - oauth
 
 - [✓] add python-social-auth
 - option to change username
@@ -81,10 +81,9 @@
 - [✓] add update.sh for deployment
 - [✓] add letsencrypt / ssl
 
-## WP - nginx
+## [✓] WP - nginx
 
-- best way to do CNAME support?
-- how is github doing this?
+- [✓] CNAME support
 
 ## WP - communities 2
 
