@@ -100,7 +100,7 @@
   - enhance community view with
     - event list
     - owners
-    - subscribers
+    - [✓] subscribers
     - links (see above)
 
 ## WP - users 2
