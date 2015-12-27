@@ -31,12 +31,13 @@
 ## [@mfa] WP - allauth
 
 - [✓] add python-social-auth
-- user has to define a (unique) username
+- option to change username
+- option to set password
 - register oauth with
   - [✓] github
-  - twitter
+  - [✓] twitter
   - google
-  - facebook
+  - [✓] facebook
 - [✓] add login page
 - [✓] add login status to navbar
 
