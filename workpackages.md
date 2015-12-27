@@ -140,3 +140,9 @@
   - created events by day/community
   - rsvps by day/community
 - only for staff but not as part of the admin.
+
+## WP - hosting 2
+
+- [✓] opbeat
+- dump postgresql
+- backup to another server
