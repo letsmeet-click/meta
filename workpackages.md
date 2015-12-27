@@ -49,12 +49,12 @@
 ## WP - communities
 
 - create app: communities
-  - add/modify community
-  - subscribe (membership in community) in m2m table
-  - creator is (default) owner - owner is subscribed with additional info in m2m through model (choice, not bool)
+  - [✓] add/ [X] modify community
+  - [✓] subscribe (membership in community) in m2m table
+  - [✓] creator is (default) owner - owner is subscribed with additional info in m2m through model (choice, not bool)
   - every subscriber can be promoted to owner by original owner
-  - view to community using /c/<slug> (don't forget the slug-field for name!)
-  - no delete option for communities! (until later)
+  - [✓] view to community using /c/<slug> (don't forget the slug-field for name!)
+  - [✓] no delete option for communities! (until later)
 
 ## WP - locations
 
