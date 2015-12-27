@@ -102,6 +102,8 @@
     - owners
     - [✓] subscribers
     - links (see above)
+- validator for CNAME field (no /, no http[s] at the beginning)
+- add instructions for CNAME support
 
 ## WP - users 2
 
