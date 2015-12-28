@@ -66,13 +66,11 @@
     - lat/lon using geo-fields (for km calculations later)
     - slug field for usage as url later. generated using the name of the location.
 
-## [@asmaps] WP - events
+## [✓] WP - events
 
-- create app: events
-  - m2m to users with through. coming/not-coming
-  - fk to community
-  - rsvp of anonymous users? only count them? verify with email / token-link?
-  - allow to hide participiants and only show count. (show all participiants only to owners)
+- [✓] create app: events
+  - [✓] m2m to users with through. coming/not-coming
+  - [✓] fk to community
 
 ## [✓] WP - hosting on ovh-vpc
 
@@ -128,6 +126,8 @@
 
 ## WP - events 2
 
+- rsvp of anonymous users? only count them? verify with email / token-link?
+- allow to hide participiants and only show count. (show all participiants only to owners)
 - comments on event
 - table with comments, no threads (1 event = 1 thread)
 - add social media share buttons
