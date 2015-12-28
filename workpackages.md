@@ -83,7 +83,7 @@
 
 - [✓] CNAME support
 
-## WP - communities 2
+## [@asmaps] WP - communities 2
 
 - every subscriber can be promoted to owner by original owner
 - community has links to
