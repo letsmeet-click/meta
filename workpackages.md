@@ -130,6 +130,7 @@
 
 - comments on event
 - table with comments, no threads (1 event = 1 thread)
+- add social media share buttons
 
 ## WP - KPIs
 
