@@ -96,7 +96,7 @@
   - (only one per type possible; so maybe a field in community-model is enough)
 - community
   - enhance community view with
-    - event list
+    - [✓] event list
     - owners
     - [✓] subscribers
     - links (see above)
