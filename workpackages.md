@@ -93,7 +93,6 @@
   - [✓] irc channel
   - [✓] slack org
   - [✓] only one per type possible
-- [✓] community
   - [✓] enhance community view with
     - [✓] event list
     - [✓] owners
@@ -139,7 +138,22 @@
   - rsvps by day/community
 - only for staff but not as part of the admin.
 
+<<<<<<< HEAD
 ## WP - FAQ/Help
 
 - add a general FAQ/Help page
 - add instructions for CNAME support in communities
+=======
+## WP - hosting 2
+
+- [✓] opbeat
+- dump postgresql
+- backup to another server
+
+## WP - mailing
+
+- mail to every attendee one day before event
+- mail to every local_organizer two days before event
+- mail to every subscriber on event creation
+- mail using i.e. https://www.mailgun.com/
+>>>>>>> 9e244cf1db213378d4a030c1debee313e9a04aeb
