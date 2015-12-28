@@ -18,11 +18,11 @@
 - [✓] setup wercker
 - setup travis
 
-## WP - notifications / slack integration
+## [✓] WP - notifications / slack integration
 
 - [✓] on push -> slack
 - [✓] on deploy -> slack (in update.sh on server)
-- test results from wercker -> slack
+- [✓] test results from wercker -> slack
 
 ## [✓] WP - bootstrap
 
