@@ -97,10 +97,10 @@
 - community
   - enhance community view with
     - [✓] event list
-    - owners
+    - [✓] owners
     - [✓] subscribers
     - links (see above)
-- validator for CNAME field (no /, no http[s] at the beginning)
+- [✓] validator for CNAME field (no /, no http[s] at the beginning)
 - add instructions for CNAME support
 
 ## WP - users 2
