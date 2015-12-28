@@ -146,3 +146,10 @@
 - [✓] opbeat
 - dump postgresql
 - backup to another server
+
+## WP - mailing
+
+- mail to every attendee one day before event
+- mail to every local_organizer two days before event
+- mail to every subscriber on event creation
+- mail using i.e. https://www.mailgun.com/
