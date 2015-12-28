@@ -14,7 +14,9 @@
 
 ## WP - testing
 
-- setup testing / wercker, travis, codeship, $bestCIplatform (all of them?)
+- [✓] add pytest setup
+- [✓] setup wercker
+- setup travis
 
 ## WP - notifications / slack integration
 
