@@ -148,8 +148,8 @@
 ## WP - hosting 2
 
 - [✓] opbeat
-- dump postgresql
-- backup to another server
+- [✓] dump postgresql
+- [✓] backup to another server
 
 ## WP - mailing
 
