@@ -83,25 +83,23 @@
 
 - [✓] CNAME support
 
-## [@asmaps] WP - communities 2
+## [✓] WP - communities 2
 
-- every subscriber can be promoted to owner by original owner
-- community has links to
-  - twitter profile of group
-  - github org
-  - homepage
-  - irc channel
-  - slack org
-  - ...
-  - (only one per type possible; so maybe a field in community-model is enough)
-- community
-  - enhance community view with
+- [✓] every subscriber can be promoted to owner by original owner
+- [✓] community has links to
+  - [✓] twitter profile of group
+  - [✓] github org
+  - [✓] homepage
+  - [✓] irc channel
+  - [✓] slack org
+  - [✓] only one per type possible
+- [✓] community
+  - [✓] enhance community view with
     - [✓] event list
     - [✓] owners
     - [✓] subscribers
-    - links (see above)
+    - [✓] links (see above)
 - [✓] validator for CNAME field (no /, no http[s] at the beginning)
-- add instructions for CNAME support
 
 ## WP - users 2
 
@@ -140,3 +138,8 @@
   - created events by day/community
   - rsvps by day/community
 - only for staff but not as part of the admin.
+
+## WP - FAQ/Help
+
+- add a general FAQ/Help page
+- add instructions for CNAME support in communities
