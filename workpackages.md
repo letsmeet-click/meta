@@ -87,11 +87,11 @@
 
 - every subscriber can be promoted to owner by original owner
 - community has links to
-  - twitter profile of group
-  - github org
-  - homepage
-  - irc channel
-  - slack org
+  - [✓] twitter profile of group
+  - [✓] github org
+  - [✓] homepage
+  - [✓] irc channel
+  - [✓] slack org
   - ...
   - (only one per type possible; so maybe a field in community-model is enough)
 - community
