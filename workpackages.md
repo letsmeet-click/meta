@@ -154,6 +154,8 @@
 - [✓] backup to another server
 
 ## WP - mailing
+- mail to organizer on new community subscription
+- mail to organizer on new event yes/no
 
 - mail to every attendee one day before event
 - mail to every local_organizer two days before event
