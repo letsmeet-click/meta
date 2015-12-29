@@ -42,6 +42,7 @@
   - [✓] facebook
 - [✓] add login page
 - [✓] add login status to navbar
+- [✓] link / unlink social accounts
 
 ## [✓] WP - postgis
 
@@ -105,6 +106,7 @@
 ## WP - users 2
 
 - profile page
+  - [✓] my profile
   - /u/<username>
   - option to add bio
   - option to add profile picture
