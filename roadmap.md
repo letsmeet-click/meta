@@ -1,17 +1,9 @@
 # Roadmap
 
-- file feature requests you have that are not already on the roadmap as an issue
+This document contains planned features. It is not sorted by priority, releavance or anything else. Things will be done
+when somebody implements them. If you have a feature request that is not already on the roadmap file an issue
     [here](https://github.com/letsmeet-click/letsmeet.click/issues)
-- if you work on something claim with [@<handle>]
-- claim whole workpagage if reasonable
-- set [✓] if sth is done
-- everyone gets an invite to letsmeet-click.slack.com - ask @mfa or @asmaps
 
-- as less code as feasible (KISS)
-- no crispy or other form-handling / plain django
-- no django-guardian. ownership/subscriptions by using fk and m2m tables
-- derive every model from `django_extensions.db.models import TimeStampedModel`! (created is important for KPIs)
-- write tests(TM) for added functionality
 
 ## WP - testing
 
