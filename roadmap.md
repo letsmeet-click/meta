@@ -53,7 +53,7 @@ when somebody implements them. If you have a feature request that is not already
   - [✓] no delete option for communities! (until later)
 
 ## WP - locations
-
+https://github.com/letsmeet-click/letsmeet.click/issues/27
 - create app: locations
   - locations can have special requirements (notes textfield)
   - add fields for meta information:
@@ -97,7 +97,7 @@ when somebody implements them. If you have a feature request that is not already
 - [✓] validator for CNAME field (no /, no http[s] at the beginning)
 
 ## [@asmaps] WP - users 2
-
+ https://github.com/letsmeet-click/letsmeet.click/issues/21 
 - profile page
   - [✓] my profile
   - /u/<username>
@@ -108,7 +108,7 @@ when somebody implements them. If you have a feature request that is not already
   - option to optout of being listed for events/communities (later by community/event ?)
 
 ## WP - locations 2
-
+ https://github.com/letsmeet-click/letsmeet.click/issues/22
 - osm integration
   - get locations from openstreetmap
   - i.e. http://nominatim.openstreetmap.org/search/?q=shackspace
@@ -119,7 +119,7 @@ when somebody implements them. If you have a feature request that is not already
   - /l/<slug>
 
 ## WP - events 2
-
+https://github.com/letsmeet-click/letsmeet.click/issues/23
 - rsvp of anonymous users? only count them? verify with email / token-link?
 - allow to hide participiants and only show count. (show all participiants only to owners)
 - comments on event
@@ -127,7 +127,7 @@ when somebody implements them. If you have a feature request that is not already
 - add social media share buttons
 
 ## WP - KPIs
-
+https://github.com/letsmeet-click/letsmeet.click/issues/24
 - summary page with KPIs
   - registered users by day
   - created communities by day
@@ -136,7 +136,7 @@ when somebody implements them. If you have a feature request that is not already
 - only for staff but not as part of the admin.
 
 ## WP - FAQ/Help
-
+https://github.com/letsmeet-click/letsmeet.click/issues/25
 - add a general FAQ/Help page
 - add instructions for CNAME support in communities
 
@@ -147,6 +147,8 @@ when somebody implements them. If you have a feature request that is not already
 - [✓] backup to another server
 
 ## WP - mailing
+https://github.com/letsmeet-click/letsmeet.click/issues/26
+
 - mail to organizer on new community subscription
 - mail to organizer on new event yes/no
 
