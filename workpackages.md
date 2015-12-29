@@ -103,7 +103,7 @@
     - [✓] links (see above)
 - [✓] validator for CNAME field (no /, no http[s] at the beginning)
 
-## WP - users 2
+## [@asmaps] WP - users 2
 
 - profile page
   - [✓] my profile
