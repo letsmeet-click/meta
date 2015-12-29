@@ -14,13 +14,15 @@
 
 ## WP - testing
 
-- setup testing / wercker, travis, codeship, $bestCIplatform (all of them?)
+- [✓] add pytest setup
+- [✓] setup wercker
+- setup travis
 
-## WP - notifications / slack integration
+## [✓] WP - notifications / slack integration
 
 - [✓] on push -> slack
 - [✓] on deploy -> slack (in update.sh on server)
-- test results from wercker -> slack
+- [✓] test results from wercker -> slack
 
 ## [✓] WP - bootstrap
 
@@ -40,6 +42,7 @@
   - [✓] facebook
 - [✓] add login page
 - [✓] add login status to navbar
+- [✓] link / unlink social accounts
 
 ## [✓] WP - postgis
 
@@ -103,6 +106,7 @@
 ## WP - users 2
 
 - profile page
+  - [✓] my profile
   - /u/<username>
   - option to add bio
   - option to add profile picture
@@ -138,22 +142,22 @@
   - rsvps by day/community
 - only for staff but not as part of the admin.
 
-<<<<<<< HEAD
 ## WP - FAQ/Help
 
 - add a general FAQ/Help page
 - add instructions for CNAME support in communities
-=======
+
 ## WP - hosting 2
 
 - [✓] opbeat
-- dump postgresql
-- backup to another server
+- [✓] dump postgresql
+- [✓] backup to another server
 
 ## WP - mailing
+- mail to organizer on new community subscription
+- mail to organizer on new event yes/no
 
 - mail to every attendee one day before event
 - mail to every local_organizer two days before event
 - mail to every subscriber on event creation
 - mail using i.e. https://www.mailgun.com/
->>>>>>> 9e244cf1db213378d4a030c1debee313e9a04aeb
