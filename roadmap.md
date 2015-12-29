@@ -1,9 +1,10 @@
-# workpackages
+# Roadmap
 
+- file feature requests you have that are not already on the roadmap as an issue
+    [here](https://github.com/letsmeet-click/letsmeet.click/issues)
 - if you work on something claim with [@<handle>]
 - claim whole workpagage if reasonable
 - set [✓] if sth is done
-- do pair programming!
 - everyone gets an invite to letsmeet-click.slack.com - ask @mfa or @asmaps
 
 - as less code as feasible (KISS)
