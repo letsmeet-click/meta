@@ -1,8 +1,8 @@
 # Roadmap
 
-This document contains planned features. It is not sorted by priority, releavance or anything else. Things will be done
-when somebody implements them. If you have a feature request that is not already on the roadmap file an issue
-    [here](https://github.com/letsmeet-click/letsmeet.click/issues)
+This document contains planned features. It is not sorted by priority, releavance or anything else.
+Things will be done when somebody implements them. If you have a feature request that is not already
+on the roadmap file an issue [here](https://github.com/letsmeet-click/letsmeet.click/issues)
 
 
 ## WP - testing
@@ -52,15 +52,15 @@ when somebody implements them. If you have a feature request that is not already
   - [✓] view to community using /c/<slug> (don't forget the slug-field for name!)
   - [✓] no delete option for communities! (until later)
 
-## WP - locations
+## [✓] WP - locations
 https://github.com/letsmeet-click/letsmeet.click/issues/27
 - create app: locations
-  - locations can have special requirements (notes textfield)
+  - [✓] locations can have special requirements (notes textfield)
   - add fields for meta information:
-    - name
-    - link to location
-    - lat/lon using geo-fields (for km calculations later)
-    - slug field for usage as url later. generated using the name of the location.
+    - [✓] name
+    - [✓] link to location
+    - [✓] lat/lon using geo-fields (for km calculations later)
+    - [✓] slug field for usage as url later. generated using the name of the location.
 
 ## [✓] WP - events
 
